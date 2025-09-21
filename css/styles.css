@@ -1,0 +1,72 @@
+:root {
+    --bg: #f6f8fa;
+    --card: #ffffff;
+    --muted: #6b7280;
+    --shadow: 0 4px 12px rgba(0,0,0,0.1);
+    --radius: 10px;
+    --primary: #2563eb;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    background: var(--bg);
+    color: #111827;
+  }
+  
+  header, footer {
+    background: var(--card);
+    padding: 16px;
+    box-shadow: var(--shadow);
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+  }
+  
+  main {
+    padding: 24px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .chart-container {
+    margin: 20px auto;
+    max-width: 1000px;
+    background: var(--card);
+    padding: 16px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+  }
+  
+  .tooltip {
+    position: absolute;
+    pointer-events: none;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 13px;
+    line-height: 1.4;
+    z-index: 100;
+    transform: translate(-50%, -110%);
+    white-space: nowrap;
+  }
+  

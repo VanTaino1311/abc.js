@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Q5 - Doanh số bán hàng trung bình theo ngày trong tháng</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    header h1 {
+      color: #1f4e79;
+      text-align: center;
+      margin-bottom: 6px;
+    }
+    header p {
+      text-align: center;
+      margin-top: 0;
+      color: var(--muted);
+    }
+    header nav {
+      text-align: center;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Q5 - Doanh số bán hàng trung bình theo ngày trong tháng</h1>
+    <p>Dữ liệu: <code>data_ggsheet.csv</code></p>
+    <nav><a href="../index.html">⬅ Quay lại menu</a></nav>
+  </header>
+
+  <main>
+    <div class="chart-container">
+      <svg id="chart" width="1000" height="600"></svg>
+    </div>
+  </main>
+
+  <script src="../js/q5.js"></script>
+</body>
+</html>
