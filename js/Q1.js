@@ -1,6 +1,6 @@
 (async function () {
   // Load file CSV từ GitHub Pages (đường dẫn tuyệt đối)
-  const rawData = await d3.csv("/D3_jschart/data/data_ggsheet.csv", d => ({
+  const rawData = await d3.csv("https://vantaino1311.github.io/abc.js/data/data_ggsheet.csv", d => ({
     maHang: d["Mã mặt hàng"],
     tenHang: d["Tên mặt hàng"],
     maNhom: d["Mã nhóm hàng"],
